@@ -1,11 +1,11 @@
 # Base
-FROM node:12
+FROM node:12-alpine
 
 WORKDIR /app
 
 # Dependencies
 COPY package*.json ./
-RUN npm install
+RUN npm install --only=production
 
 # Build
 COPY . .

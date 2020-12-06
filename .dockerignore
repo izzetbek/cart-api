@@ -1,0 +1,18 @@
+# Dependencies
+node_modules
+
+# Debug
+npm-debug
+
+# IDEs and editors
+/.idea
+.project
+.vscode
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VCS
+.git
